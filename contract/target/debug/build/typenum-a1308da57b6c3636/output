@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/sean_conrad/Desktop/scrt-business-card/contract/target/debug/build/typenum-a1308da57b6c3636/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/sean_conrad/Desktop/scrt-business-card/contract/target/debug/build/typenum-a1308da57b6c3636/out/op.rs

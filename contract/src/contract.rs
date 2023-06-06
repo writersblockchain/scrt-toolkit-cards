@@ -66,11 +66,8 @@ pub fn try_create_card(
     index: u8,
 ) -> StdResult<Response> {
     //add_suffix needs byte array, this is called pre-fixing
-    USER_CARDS
-        .add_suffix(info.sender.as_bytes())
-        .insert(deps.storage, &index, &card)?;
 
-    Ok(Response::default())
+    //to do
 }
 
 pub fn try_burn_card(

@@ -14,9 +14,7 @@ pub struct InstantiateMsg {
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, Eq, JsonSchema)]
 #[serde(rename_all = "snake_case")]
 pub enum ExecuteMsg {
-    Create { card: Card, index: u8 },
-    Burn { index: u8 },
-    GenerateViewingKey { index: u8 },
+   //to fill out
 
 }
 

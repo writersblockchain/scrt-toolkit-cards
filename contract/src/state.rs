@@ -1,4 +1,3 @@
-use cosmwasm_std::Addr;
 use schemars::JsonSchema;
 use serde::{Deserialize, Serialize};
 
@@ -9,16 +8,7 @@ pub static CONFIG_KEY: &[u8] = b"config";
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, Eq, JsonSchema)]
 
 pub struct Card {
-    pub name: String,
-    pub address: String,
-    pub phone: String,
-}
-
-#[derive(Serialize, Deserialize, Clone, Debug, PartialEq, Eq, JsonSchema)]
-pub struct ScannedViewingKey {
-    pub wallet: Addr,
-    pub index: u8,
-    pub viewing_key: String,
+   // to fill out
 }
 
 pub static USER_CARDS: Keymap<u8, Card> = Keymap::new(b"user cards");
