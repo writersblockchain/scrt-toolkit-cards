@@ -5,16 +5,16 @@ dotenv.config();
 
 const wallet = new Wallet(process.env.MNEMONIC);
 
-const contract_wasm = fs.readFileSync("../contract/contract.wasm.gz");
+const contract_wasm = fs.readFileSync("../contract/contract.wasm");
 
-let codeId = 21736;
+let codeId = 1007;
 let contractCodeHash =
-  "86e5ec9e99dc0354a8bc246fffe5cffd6de3922f5fcc9af7c5d703b21e583a1b";
-let contractAddress = "secret13zxw5nc5cqlqzns6q32xwwvgml6fgede7vnceq";
+  "4d605f10a5e4a0f26d485a21d6d11237f4697e088fc5d45c1ae979729d719004";
+let contractAddress = "secret1ny7rwf0yk5ccyk2t44xa0m9uj5w6ugqqupd9sp";
 
 const secretjs = new SecretNetworkClient({
-  chainId: "pulsar-2",
-  url: "https://api.pulsar.scrttestnet.com",
+  chainId: "pulsar-3",
+  url: "https://api.pulsar3.scrttestnet.com",
   wallet: wallet,
   walletAddress: wallet.address,
 });
@@ -115,7 +115,9 @@ let createViewingKey = async () => {
   );
 };
 // createViewingKey();
-let viewing_key = "api_key_WGKXsLiNi2xwzBMfZ8DPx10I2215mPGK4ICIxiVdCqE=";
+
+let viewing_key = "api_key_3k37h5UUa7R46lSsspGSRugqi22eaPPUl1z3MIiQPC0=";
+
 let queryCard = async () => {
   let business_card_query_tx = await secretjs.query.compute.queryContract({
     contract_address: contractAddress,

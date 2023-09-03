@@ -5,8 +5,8 @@ import { SecretNetworkClient } from "secretjs";
 import { Link } from "react-router-dom";
 
 function Navbar({ secretJs, setSecretJs, myAddress, setMyAddress }) {
-  const CHAIN_ID = "pulsar-2";
-  const grpcWebUrl = "https://api.pulsar.scrttestnet.com";
+  const CHAIN_ID = "pulsar-3";
+  const grpcWebUrl = "https://api.pulsar3.scrttestnet.com";
 
   let connectWallet = async () => {
     if (!window.keplr) {
