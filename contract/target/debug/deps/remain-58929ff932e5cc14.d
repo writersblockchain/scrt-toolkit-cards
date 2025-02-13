@@ -1,0 +1,12 @@
+/Users/seanconrad/Desktop/scrt-toolkit-cards/contract/target/debug/deps/libremain-58929ff932e5cc14.dylib: /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/lib.rs /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/atom.rs /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/check.rs /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/compare.rs /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/emit.rs /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/format.rs /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/parse.rs /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/visit.rs
+
+/Users/seanconrad/Desktop/scrt-toolkit-cards/contract/target/debug/deps/remain-58929ff932e5cc14.d: /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/lib.rs /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/atom.rs /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/check.rs /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/compare.rs /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/emit.rs /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/format.rs /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/parse.rs /Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/visit.rs
+
+/Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/lib.rs:
+/Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/atom.rs:
+/Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/check.rs:
+/Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/compare.rs:
+/Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/emit.rs:
+/Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/format.rs:
+/Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/parse.rs:
+/Users/seanconrad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/remain-0.2.11/src/visit.rs:
